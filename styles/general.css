@@ -1,0 +1,131 @@
+.body{
+  height: 3000px;
+}
+.pet-picture{
+width: 200px;
+height: 200px;
+margin-left:10px;
+margin-bottom: 10px;
+
+  object-fit: cover;
+  border-radius: 5px;
+}
+.picture-arrangement{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+width: 1000;
+background-color: gray;
+
+}
+.dog-owner{
+  position: absolute;
+  height: 750px;
+  width: 700px;
+  object-fit: cover;
+  border-radius: 8px;
+z-index: 1;
+}
+.dog-pic{
+  margin-left: 50px;
+  position: absolute;
+  height: 750px;
+  width: 700px;
+  object-fit: cover;
+  border-radius: 8px;
+z-index: 1;
+
+}
+.overlay,.overlay-donate{
+  position: relative;
+  top: 300px;
+  left: 200px;
+  background-color: transparent;
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  z-index: 2;
+
+}
+.adopt-section,.donate-section{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 650px;
+justify-content: center;
+text-align: center;
+border-color: brown;
+border-width: 1px;
+border-style: solid;
+border-radius: 8px;
+margin-left: 400px;
+padding-left: 20px;
+padding-right: 20px;
+margin-top: 50px;
+  
+}
+.donate-section{
+margin-left: 20px;
+}
+.adopt,.donate{
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.donate{
+  color: white;
+}
+.adoption-places,.donate-time{
+  font-size: 20px;
+  color: lightgrey;
+font-style: italic;
+margin-bottom: 20px;
+}
+
+.middle-section,.end-section{
+  display:flex ;
+  flex-direction: row;
+  margin-top: 15px;
+ 
+}
+.end-section{
+  background-color: black;
+  margin-top: 150px;
+  border-radius: 8px;
+  height: 750px;
+  margin-left :40px;
+
+}
+.adoption-description,.donate-description{
+  line-height: 30px;
+font-size: 18px;
+margin-right: 20px ;
+}
+.donate-description{
+  color: white;
+
+}
+.apply{
+  background-color: black;
+color: white;
+width: 150px;
+height: 80px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 150px;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.donate-now{
+  background-color: brown;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+align-items: center;
+margin-left: 150px;
+margin-top: 30px;
+margin-bottom: 30px;
+
+}
